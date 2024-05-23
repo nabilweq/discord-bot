@@ -123,6 +123,6 @@ module.exports = async (client, interaction ) => {
             await interaction.reply({content: message, ephemeral: true});
         }
     } catch (error) {
-        console.log(error);   
+        console.log("Error: ",error);   
     }
 }
